@@ -1,3 +1,5 @@
+/* Add your own CSS code below */
+
 .countries {
   display: flex;
   justify-content: flex-end;
@@ -15,4 +17,35 @@
   padding: 0.5em;
 }
 
-/* Add your own CSS code below */
+.countries--second {
+  display: flex;
+  justify-content: space-around;
+}
+
+.countries--third {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.countries--third .country {
+  padding: 16.5px;
+  padding-right: 430px;
+  padding-left: 10px;
+  font-weight: 500;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.countries--fourth {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.countries--fourth .country {
+  padding: 16.5px;
+  padding-right: 430px;
+  padding-left: 10px;
+  width: 100%;
+}
