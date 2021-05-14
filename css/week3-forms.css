@@ -172,3 +172,10 @@ button:focus {
   max-width: 128px;
   height: auto;
 }
+
+fieldset {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
