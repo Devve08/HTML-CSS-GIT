@@ -173,7 +173,7 @@ button:focus {
   height: auto;
 }
 
-fieldset {
+.xyz {
   height: 30vh;
   display: flex;
   flex-direction: column;
